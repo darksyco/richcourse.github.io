@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">RICH COURSE</a>
+            </div>
+            <ul class="menu" id="myDIV">
+                <li><a href="#">Home</a></li>
+                <li><a href="https://freeskilscourse2.netlify.app/about">About</a></li>
+                <li><a href="#course">Course</a></li>
+
+                <li><a href="https://freeskilscourse2.netlify.app/contact">Contact</a></li>
+            </ul>
+            <button onclick="myFunction()" class="menu-icon">&#9776;</button>
+        </nav>
+    </header>
+
+    <section class="Offer">
+        <div>
+            <marquee behavior="alternate"><h2>Diwali Offer Only 5 day</h2></marquee>
+
+        </div>
+        <div class="time">
+            
+            <div>
+                <p id="days">00</p>
+                <span>day</span>
+            </div>
+            <div>
+                <p id="hours">00</p>
+                <span>hourse</span>
+            </div>
+            <div>
+                <p id="min">00</p>
+                <span>minutes</span>
+            </div>
+            <div>
+                <p id="sec">00</p>
+                <span>seconds</span>
+            </div>
+        </div>
+
+    </section>
+
+    <main id="course">
+        <section id="courses">
+            <h1>Online Courses</h1>
+            <div id="course-list">
+                <!-- Course cards will be dynamically added here -->
+                <h2>Available Courses</h2>
+                <ul class="flex-box">
+                    <li>
+                        <div class="course">
+                            <img src="https://www.richind.org/backend/img/course/17665277011692716297.png" />
+                            <h2>Video Editing</h2>
+                            <p>You cannot access this course plz unlocked !</p>
+                            <p style="color: rgb(29, 28, 28);">When you unlock this course, your 1 pass code will be
+                                generated. With your pass code, if you promote 1 person then you will get active income.
+                            </p>
+                            <h5 style="margin: 5px 0;">Active Income - ₹0</h5>
+                            <h4 style="margin: 10px 0 0 2px;"> Price : ₹0 <span
+                                    style="text-decoration: line-through;">₹149</span> (100% off)
+                            </h4>
+                            <a href="video.html" class="styled-link">LEARN COURSE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="course">
+                            <img src="https://www.richind.org/backend/img/course/12818624261692715992.png" />
+                            <h2>Canva Mastery</h2>
+                            <p>You cannot access this course plz unlocked !</p>
+                            <p style="color: rgb(29, 28, 28);">When you unlock this course, your 1 pass code will be
+                                generated. With your pass code, if you promote 1 person then you will get active income.
+                            </p>
+                            <h5 style="margin: 5px 0;">Active Income - ₹0</h5>
+                            <h4 style="margin: 10px 0 0 2px;"> Price : ₹0 <span
+                                    style="text-decoration: line-through;">₹149</span> (100% off) </h4>
+                            <a href="photo.html" class="styled-link">LEARN COURSE</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="course">
+                            <img src="https://www.richind.org/backend/img/course/3760042941692715556.png" />
+                            <h2>Instagram Growth Mastery</h2>
+                            <p>You cannot access this course plz unlocked !</p>
+                            <p style="color: rgb(29, 28, 28);">When you unlock this course, your 1 pass code will be
+                                generated. With your pass code, if you promote 1 person then you will get active income.
+                            </p>
+                            <h5 style="margin: 5px 0;">Active Income - ₹0</h5>
+                            <h4 style="margin: 10px 0 0 2px;">Price : ₹0 <span
+                                    style="text-decoration: line-through;">₹149</span> (100% off)  </h4>
+                            <a href="instagram.html" class="styled-link">LEARN COURSE</a>
+                        </div>
+                    </li>
+                    <!-- Add more course items here -->
+                </ul>
+            </div>
+            <a href="https://freeskilscourse2.netlify.app/part2"><div style="width: 100%; text-align: center; background-color: rgba(255, 255, 255, 0.4);"><h1>FREE COURSE SALES MASTERY</h1></div></a>
+        </section>
+
+        
+    </main>
+
+    <div class="iconwhatsapp">
+        <a href="https://wa.link/bs166w"><i class="fa-brands fa-whatsapp fa-beat-fade" style="color: #00ff33;"></i></a>
+    </div>
+
+    <section>
+        <div>
+            <h1>Contact Us</h1>
+            <form action="https://formspree.io/f/mleyanra" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="5" required></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-menu" style="display: flex; justify-content: space-around;align-items: center;">
+            <ul>
+                <h2>Quick Links</h2>
+                <li><a href="https://freeskilscourse2.netlify.app/about">About</a></li>
+                <li><a href="https://freeskilscourse2.netlify.app/contact">Contact Us</a></li>
+                <li><a href="https://www.freeprivacypolicy.com/live/e04dafe7-a6c1-49c0-837a-910f5cc92a67">Return & Refund Policy</a></li>
+
+            </ul>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5197.9006985246415!2d86.10287347374977!3d22.8959983040171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e7914f5ee64d%3A0xd3dccfc819d9cad9!2sHanuman%20Mandir%20Bhuiyadih!5e0!3m2!1sen!2sin!4v1699464362389!5m2!1sen!2sin"
+                width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p style="margin-top: 20px; color: white;">&copy; 2023 Online Course Website<a
+                href="https://freeskilscourse2.netlify.app/contact"> by manoj</a></p>
+    </footer>
+
+    <script src="main.js">
+       
+    </script>
+</body>
+
+</html>
